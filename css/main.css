@@ -75,12 +75,11 @@ body {
 }
 
 .sitenav-link {
-    display: block;
     text-decoration: none;
     color: #000000;
     text-transform: uppercase;
     font-weight: 500;
-    font-style: 13px;
+    font-size: 13px;
     line-height: 15px;
     letter-spacing: 1px;
 }
@@ -134,6 +133,7 @@ body {
     background-color: #252420;
     color: #fff;
     height: 488px;
+    border-radius: 12px;
 }
 
 .hero-content-container {
@@ -185,6 +185,7 @@ body {
     width: 440px;
     height: 440px;
     margin-bottom: 64px;
+    /* border-radius: 12px; */
 }
 
 .main-content-container {
