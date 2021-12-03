@@ -182,9 +182,9 @@ body {
 }
 
 .heroo-img {
-    width: 440px;
     height: 440px;
     margin-bottom: 64px;
+    width: 440px;
     /* border-radius: 12px; */
 }
 
@@ -201,4 +201,12 @@ body {
     margin-top: 0;
     margin-bottom: 24px;
     margin-right: 835px;
+}
+
+.acitons {
+    display: flex; 
+}
+
+.feature-item {
+    list-style: none;
 }
