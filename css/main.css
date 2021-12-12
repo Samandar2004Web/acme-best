@@ -4,7 +4,13 @@
     box-sizing: border-box;
 }
 
+html {
+    height: 100%;
+}
+
 body {
+    display: flex;
+    flex-direction: column;
     margin: 0;
     padding: 0;
     font-family: 'roboto', sans-serif;
@@ -13,6 +19,7 @@ body {
     line-height: 24px;
     letter-spacing: 0.5px;
     color: #000000;
+    height: 100%;
 }
 
 /* Container */
@@ -121,6 +128,8 @@ body {
 /* Main content */
 
 .main-content {
+    flex-grow: 1;
+    margin-bottom: 216px;
 
 }
 .hero {
@@ -209,4 +218,42 @@ body {
 
 .feature-item {
     list-style: none;
+}
+
+/* Footer */
+
+.second {
+    background-color: #F8F8F8;
+}
+
+}
+
+.-w- {
+    display: flex;
+    align-items: center;
+}
+
+.img {
+    display: block;
+}
+
+.footer-icons {
+    display: block;
+}
+
+.site-foter {
+    display: flex;
+}
+
+.site-footer-bottom {
+   
+}
+
+.site-footer-link {
+    list-style: none;
+
+}
+
+.site-footer-list {
+    text-decoration: none;
 }
