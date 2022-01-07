@@ -259,7 +259,7 @@ body {
 .hhero-header {
     width: 373px;
     height: 96px;
-    font-family: 'Roboto Condensed' sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     font-weight: 700;
     line-height: 48px;
     font-size: 40px;
@@ -276,14 +276,14 @@ body {
     margin-bottom: 24px;
 }
 .span {
-    color: #FF7500;
+    color: #ff7500;
 }
 
 /* Footer */
 
 .second {
-   background-color: #F8F8F8;
-   padding-top: 56px;
+    background-color: #f8f8f8;
+    padding-top: 56px;
 }
 
 .title-container {
@@ -291,7 +291,6 @@ body {
 }
 
 .item-container {
-
 }
 
 .-w- {
@@ -318,23 +317,20 @@ body {
 }
 
 .instagram {
-
 }
 
 .rectangle {
     margin-top: 40px;
-    margin-bottom: 64px;    
+    margin-bottom: 64px;
 }
 
 .site-foter {
     display: flex;
-  
 }
 
 .site-footer-bottom {
     margin-right: 68px;
-} 
-
+}
 
 .site-footer-list {
     text-decoration: none;
