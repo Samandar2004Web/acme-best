@@ -1,6 +1,14 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 /* Global */
 
 * {
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -9,7 +17,12 @@ html {
 }
 
 body {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     margin: 0;
     padding: 0;
@@ -46,8 +59,14 @@ body {
 }
 
 .main-header-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 
@@ -60,7 +79,11 @@ body {
 }
 
 .sitenav-acitons {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
@@ -71,6 +94,8 @@ body {
 }
 
 .sitenav-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     list-style: none;
     padding: 0;
@@ -128,6 +153,8 @@ body {
 /* Main */
 
 .main-content {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
     flex-grow: 1;
 }
 
@@ -145,7 +172,11 @@ body {
 }
 
 .hero-content-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 
@@ -183,6 +214,7 @@ body {
     width: 510px;
     height: 510px;
     margin-top: 40px;
+    -webkit-filter: drop-shadow(24px 24px 0px rgba(255, 117, 0, 0.6));
     filter: drop-shadow(24px 24px 0px rgba(255, 117, 0, 0.6));
     border-radius: 8px;
 }
@@ -212,6 +244,8 @@ body {
 }
 
 .frame {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding: 0;
     list-style: none;
@@ -244,7 +278,11 @@ body {
 }
 
 .hhero-content-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     background-color: #252420;
     color: #fff;
@@ -294,17 +332,27 @@ body {
 }
 
 .-w- {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
 .footer-img {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     margin-right: auto;
 }
 
 .footer-icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
@@ -325,6 +373,8 @@ body {
 }
 
 .site-foter {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
