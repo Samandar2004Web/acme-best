@@ -150,6 +150,10 @@ body {
     opacity: 0.6;
 }
 
+.hhero-img {
+    margin-top: -60px;
+}
+
 /* Main */
 
 .main-content {
@@ -285,6 +289,7 @@ body {
     -ms-flex-pack: justify;
     justify-content: space-between;
     background-color: #252420;
+    height: 520px;
     color: #fff;
     border-radius: 12px;
     margin-bottom: 216px;
