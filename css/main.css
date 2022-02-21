@@ -395,4 +395,5 @@ body {
 .site-footer-link {
     color: #252420;
     list-style: none;
+    margin-bottom: 16px;
 }
