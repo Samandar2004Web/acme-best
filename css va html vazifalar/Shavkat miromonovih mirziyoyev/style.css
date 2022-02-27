@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+    background-color: gray;
+} 
+.th1 {
+    background-color: chartreuse;
+}
+.apple{
+    border:  2px solid  black;
+}
+.apple1 {
+    border:  2px solid;
+}
+img {
+    border-radius: 50%;
+}
+li {
+    background-color: darkslateblue;
+}
+a {
+    color: greenyellow;
+}

@@ -1,0 +1,35 @@
+body { 
+    text-align: center;
+    background-color: #9fa9b4;
+}
+
+.card {
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
+    border: solid 1px black;
+}
+.card-1 {
+    background-color: yellow;
+    width: 90%;
+}
+.card-2 {
+    background-color: rgb(166, 255, 0);
+    width: 80%;
+}
+.card-3 {
+    background-color: rgb(0, 255, 13);
+    width: 70%;
+}
+.card-4 {
+    background-color: rgb(0, 255, 157);
+    width:60% ;
+}
+.card-5 {
+    background-color: rgb(0, 110, 255);
+    width:50% ;
+}
+.card-6 {
+    background-color: rgb(64, 0, 255);
+    width: 40%;
+}

@@ -1,14 +1,124 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uz">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acme web sayt</title>
+    <title>Web development</title>
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
+    <!-- HEADER SECTION -->
+    <header class="header">
+        <h1 class="header__title">Welcom to Acme web site </h1>
     
+    <p class="header__text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit  consectetur adipisicing elit. Harum pariatur suscipit magni incidunt quasi aliquid!
+    </p>
+    <a href="#" class="header__btn">Read more</a>
+</header>
+    <!-- /HEADER SECTION END -->
+    <!-- MAIN CSS -->
+    <main class="main">
+        <section class="main-h">
+            <div class="main-h__container">
+                <h3 class="main-h__title">Lorem ipsum dolor sit.</h3>
+                <div class="main-h__text-box">
+                    <p class="main-h__text">Web is dolor sit amet consectetur adipisicing elit. Quae quia delectus     eveniet     eaque possimus ab iusto. Asperiores,Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet     consectetur     adipisicing elit. Quaerat, incidunt.</p>
+                    <p class="main-h__text">Web is dolor sit amet consectetur adipisicing elit. Quae quia delectus     eveniet     eaque possimus ab iusto. Asperiores,Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet     consectetur     adipisicing elit. Quaerat, incidunt.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="main-m">
+            <div class="main-m__container m-container">
+                <div class="main-m__item">
+                    <img src="./images/Без названия (1).jpg" alt="web design img" class="main-m__img" width="260px" height="200px">
+                    <div class="main-m__wrapper">
+                        <h4 class="wrapper-title">Web development</h4>
+                        <p class="wrapper-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt facilis iusto quaerat aliquid quod. Ratione.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="main-m__item">
+                    <img src="./images/Без названия (2).jpg" alt="web design img" class="main-m__img" width="260px" height="200px">
+                    <div class="main-m__wrapper">
+                        <h4 class="wrapper-title">Web development</h4>
+                        <p class="wrapper-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt facilis iusto quaerat aliquid quod. Ratione.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="main-m__item">
+                    <img src="./images/Без названия.jpg" alt="web design img" class="main-m__img" width="260px" height="200px">
+                    <div class="main-m__wrapper">
+                        <h4 class="wrapper-title">Web development</h4>
+                        <p class="wrapper-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt facilis iusto quaerat aliquid quod. Ratione.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- MAIN CSS END -->
+    <!-- FOOTER SECTION  -->
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__list">
+                    <div class="footer__item">
+                        <h3 class="footer-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, pariatur tenetur? Sunt, dolore. Reprehenderit, harum?</h3>
+                    </div>
+                    <div class="footer__bio">Samandar Abdusalomov</div>
+                    <div class="footer-lists">
+                        <div class="footer-item">
+                            <h3 class="footer-title">Lorem, ipsum dolor.</h3>
+                            <p class="footer-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati tempore tempora esse totam reiciendis veritatis expedita cumque vitae eos possimus.
+                            </p>
+                        </div>
+                        <div class="footer__bio"><h3>Kuva</h3></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <form  action="/server.php" method="GET" >
+            <br>
+            <h1><label for="username">Username</label>
+            <input type="text" name="username" id="username"> <br><br>
+            <label for="Familiya">Familiya</label>
+            <input type="text"name="Familiya" id="Familiya"><br><br>
+            <label for="Password">Password</label>
+            <input type="password" name="Password"  id="Password"><br><br>
+            <label for="email">Emailingiz</label>
+            <input type="email" name="email" id="email"><br><br>
+            <label for="sana">Tug'ilgan sana </label>
+            <input type="date"name="date" id="sana"><br><br>
+            <label for="dasturchi">dasturchi</label>
+            <input type="checkbox" name="Dasturchi" id="dasturchi"> <br><br>
+            <hr>
+            <label for="erkak">Erkak</label>
+            <input type="radio" name="jinsi" value="erkak">
+            <label for="ayol">Ayol</label>
+            <input type="radio" name="jinsi" id="ayol" value="ayol"><br><br>
+            <label for="Passport">File</label>
+            <input type="file" name="Passport" id="Passport">
+            <hr>
+            <label for="Tajriba">Tajribangiz {yil}</label>
+            <select name="tajriba" id="Tajriba">
+                 <option value="0">Tajribam yo'q</option>
+                 <option value="1">Tajribam bor </option>
+            </select>
+            <br><br>
+            </h1>
+           </form>
+    <!-- FOOTER SECTION  END -->
+    <video controls><source src="./videos/video_2022-02-25_14-10-51.mp4"><video/mp4></video>
+
 </body>
 </html>
